@@ -1,0 +1,6 @@
+// paso a paso para crear una app react
+// instalar dependencias
+npm install -g react react-dom react-scripts
+
+// generar proyecto dummy
+npx create-react-app nombre-app
