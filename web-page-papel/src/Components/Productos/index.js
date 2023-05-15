@@ -10,17 +10,17 @@ class Productos extends Component {
           {
             id: 1,
             name: "papel",
-            paragraph: "papel pal culo"
+            paragraph: "papel higienico"
           },
           {
             id: 2,
-            name: "goma",
-            paragraph: "goma pal culo"
+            name: "Malla de cartón",
+            paragraph: "Malla de cartón"
           },
           {
             id: 3,
-            name: "trapo",
-            paragraph: "trapo pal culo"
+            name: "Libreta",
+            paragraph: "Libreta argollada"
           }
         ]
       };

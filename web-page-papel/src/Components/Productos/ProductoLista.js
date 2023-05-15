@@ -18,7 +18,7 @@ function ProductoLista(props) {
       <div className="col-xl-2 col-lg-2 col-xs-2">
         <img
           className="logo rounded-circle"
-          src={`${process.env.PUBLIC_URL}producto${producto.id}.png`}
+          src={`${process.env.PUBLIC_URL}imagen${producto.id}.jpg`}
           alt="logo"
         />
       </div>
