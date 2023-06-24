@@ -10,7 +10,7 @@ class Inicio extends Component {
       this.state = {
       };
     }
-  
+  // hola soy una simia
     render() {
       return (
         <div>
