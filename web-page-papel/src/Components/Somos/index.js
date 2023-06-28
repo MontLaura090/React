@@ -15,7 +15,12 @@ class Somos extends Component {
              ¿Quiénes Somos?
            </h1>
              <p align="justify">
-                Papercraft es una empresa que se dedica a la creación de productos de papel innovadores y de alta calidad para satisfacer las necesidades de nuestros clientes. Nos inspiramos en el papel como un medio de expresión creativa, y por eso buscamos constantemente nuevas formas de innovar en nuestra producción. En nuestra empresa, nos enorgullece ofrecer una atención personalizada y cercana a nuestros clientes, para que juntos podamos crear productos de papel únicos e inolvidables. Además, trabajamos en armonía con el medio ambiente, para ofrecer productos sostenibles y responsables con el planeta. En definitiva, en nuestra empresa estamos comprometidos con la creatividad, la calidad y la sostenibilidad. Queremos que nuestros productos sean una expresión única de la personalidad y estilo de cada uno de nuestros clientes.    
+
+             En Impulso Juvenil, nos apasiona empoderar a la población juvenil y brindarles oportunidades para su crecimiento personal y profesional. Somos una empresa comprometida en ayudar a los jóvenes que se encuentran en la situación conocida como "NINI" (Ni estudian, ni trabajan) a descubrir su potencial y adquirir las habilidades necesarias para ingresar al mundo laboral.
+             <p>
+             Nuestra misión es romper el ciclo de desmotivación y falta de oportunidades que muchos jóvenes enfrentan en la actualidad. Creemos firmemente en el poder transformador de la educación y la capacitación, y nos esforzamos por ofrecer programas de formación integral que les permitan adquirir conocimientos prácticos y competencias demandadas en el mercado laboral.
+             </p>
+            
             </p>
             <img
                 class="img-fluid" alt="Responsive image"

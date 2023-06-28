@@ -11,7 +11,7 @@ const Header = (props) => {
       <Link to="/" className="navbar-brand">
         <img
           className="logo"
-          src={`${process.env.PUBLIC_URL}${"user-an"}.jpg`}
+          src={`${process.env.PUBLIC_URL}${"user-an"}.png`}
         />
       </Link>
 
@@ -21,11 +21,11 @@ const Header = (props) => {
           <Nav className="mr-auto">
             <Fragment>
                 <NavLink
-                  to="/productos"
+                  to="/proyectos"
                   className="nav-link"
                   activeClassName="active"
                 >
-                  Nuestros productos
+                  Nuestros proyectos
                 </NavLink>
                 <NavLink
                   to="/somos"
