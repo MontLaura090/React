@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import LinesChart from "./LinesChart";
 //import BarsChart from "./BarsChart";
 //import PiesChart from "./PiesChart";
-import { getDataFromAPI } from "../../Utils/ApiRequests";
+import { getDataAntioquia } from "../../Utils/ApiRequests";
 
 class Inicio extends Component {
   constructor(props) {
@@ -14,7 +14,9 @@ class Inicio extends Component {
   }
 
   async componentWillMount() {
-    this.setState({ data: await getDataFromAPI() });
+    const apiData = await getDataAntioquia();
+    console.log(apiData.data);
+    this.setState({ data: apiData.data });
   }
 
   render() {
