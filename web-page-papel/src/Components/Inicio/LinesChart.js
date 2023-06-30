@@ -37,20 +37,12 @@ const misoptions = {
 export default function LinesChart(props) {
     const { data } = props;
 
-    const years = [];
-    const percentaje = [];
-
-    data.sort((a, b) => a.año - b.año).map((dataFragment) => {
-        years.push(dataFragment.año);
-        percentaje.push(dataFragment.Porcentaje);
-    });
-
     const midata = {
-        labels: years,
+        labels: data.rows,
         datasets: [ // Cada una de las líneas del gráfico
             {
                 label: 'Porcentaje',
-                data: percentaje,
+                data: data.columns,
                 tension: 0.5,
                 fill : true,
                 borderColor: 'rgb(255, 99, 132)',
