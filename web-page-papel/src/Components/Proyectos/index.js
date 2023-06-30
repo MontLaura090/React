@@ -14,13 +14,13 @@ class Proyectos extends Component {
           },
           {
             id: 2,
-            name: "Malla de cartón",
-            paragraph: "Malla de cartón"
+            name: "Programa de educación secundaria para adultos",
+            paragraph: "Estos programas les permiten obtener un diploma de educación secundaria "
           },
           {
             id: 3,
-            name: "Libreta",
-            paragraph: "Libreta argollada"
+            name: "Programa de formación en habilidades laborales",
+            paragraph: "Estos programas brindan capacitación en habilidades blandas, como trabajo en equipo, comunicación, liderazgo y gestión del tiempo, que son altamente valoradas en el entorno laboral."
           }
         ]
       };
